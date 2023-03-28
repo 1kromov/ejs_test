@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+    <%- include("./partials/nav.ejs") %>
+    <h3><a href="/adduser">Yangi Post qoshish</a></h3>
+    <% console.log(users)%>
+<ol>
+    <% users.forEach((user)=>{ %>
+        <li>
+            <a href="/user/<%= user.userId %>">
+                <span> <%= user.userId %> - <%= user.id %></span> - <%= user.title%> <%= user.phone %>
+            </a>
+        </li>
+      <% })%>
+      
+  
+</ol>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cowsay": "^1.5.0",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0"
+  },
+  "name": "26_darsnodejshomework",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

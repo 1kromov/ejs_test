@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./partials/head.ejs")%>
+
+<body>
+    <%- include("./partials/nav.ejs")%>
+    <% jobs.forEach((job)=>{ %>
+        <li><%= job %></li>
+        <% })%>
+   
+</body>
+</html>

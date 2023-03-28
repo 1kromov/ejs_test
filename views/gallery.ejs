@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./partials/head.ejs")%>
+
+<body>
+    <%- include("./partials/nav.ejs")%>
+    <% jpgs.forEach((img)=>{ %>
+        <li><img src="<%= img %>" alt=""></li>
+        <% })%>
+</body>
+</html>
